@@ -20,60 +20,417 @@ nav a {
     background-repeat: no-repeat;
     color: rgb(253, 240, 133);
     transition: background-size 0.3s, color 0.8s;
+    -moz-background-image: url(ba_target.png);
+    -moz-background-size: 0%;
+    -moz-background-position: center;
+    -moz-background-repeat: no-repeat;
+    -moz-color: rgb(253, 240, 133);
+    -moz-transition: background-size 0.3s, color 0.8s;
+    -ms-background-image: url(ba_target.png);
+    -ms-background-size: 0%;
+    -ms-background-position: center;
+    -ms-background-repeat: no-repeat;
+    -ms-color: rgb(253, 240, 133);
+    -ms-transition: background-size 0.3s, color 0.8s;
+    -o-background-image: url(ba_target.png);
+    -o-background-size: 0%;
+    -o-background-position: center;
+    -o-background-repeat: no-repeat;
+    -o-color: rgb(253, 240, 133);
+    -o-transition: background-size 0.3s, color 0.8s;
+    -webkit-background-image: url(ba_target.png);
+    -webkit-background-size: 0%;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-color: rgb(253, 240, 133);
+    -webkit-transition: background-size 0.3s, color 0.8s;
 }
 
+/* 
+==================================================
+The above piece of code changes the following: background (image, size, position, repeat) of all nav and a elements to the following respective values: url(ba_target.png), 0%, center, no-repeat, rgb(253, 240, 133), (background-size 0.3s, color 0.8s); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
 nav a:hover {
     background-size: 100%;
     color: rgb(244, 130, 130);
+    -moz-background-size: 100%;
+    -moz-color: rgb(244, 130, 130);
+    -ms-background-size: 100%;
+    -ms-color: rgb(244, 130, 130);
+    -o-background-size: 100%;
+    -o-color: rgb(244, 130, 130);
+    -webkit-background-size: 100%;
+    -webkit-color: rgb(244, 130, 130);
 }
 
+/* 
+==================================================
+The above piece of code changes the following: background-size, font color of all nav and a (when the a element is hovered upon) elements to the following respective values: 100%, rgb(244, 130, 130); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
 /* Animation Styles */
 @keyframes moveRed {
     0% {
-        position: left 0px;
         filter: drop-shadow(rgb(51, 51, 51) -40px 20px 25px);
+        left: 0px;
+        -moz-filter: drop-shadow(rgb(51, 51, 51) -40px 20px 25px);
+        -moz-left: 0px;
+        -ms-filter: drop-shadow(rgb(51, 51, 51) -40px 20px 25px);
+        -ms-left: 0px;
+        -o-filter: drop-shadow(rgb(51, 51, 51) -40px 20px 25px);
+        -o-left: 0px;
+        -webkit-filter: drop-shadow(rgb(51, 51, 51) -40px 20px 25px);
+        -webkit-left: 0px;
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: filter, left position for the moveRed animation to the following respective values: drop-shadow(rgb(51, 51, 51) -40px 20px 25px, 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     49% {
         transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: transform for the moveRed animation to the following respective values: scaleX(1); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     50% {
         filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        left: 380px;
         transform: scaleX(0.4);
+        -moz-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -moz-left: 380px;
+        -moz-transform: scaleX(0.4);
+        -ms-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -ms-left: 380px;
+        -ms-transform: scaleX(0.4);
+        -o-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -o-left: 380px;
+        -o-transform: scaleX(0.4);
+        -webkit-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -webkit-left: 380px;
+        -webkit-transform: scaleX(0.4);
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: filter, left position, transform for the moveRed animation to the following respective values: drop-shadow(rgb(51, 51, 51) 0px 0px 0px), 380px, scaleX(0.4); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     51% {
-        transform: scaleX(1.0);
+        transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: transform for the moveRed animation to the following respective values: scaleX(1); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     100% {
-        position: left 0px;
         filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        left: 0px;
+        -moz-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -moz-left: 0px;
+        -ms-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -ms-left: 0px;
+        -o-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -o-left: 0px;
+        -webkit-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -webkit-left: 0px;
     }
+
+    /* 
+==================================================
+The above piece of code changes the following: filter, left position for the moveRed animation to the following respective values: drop-shadow(rgb(51, 51, 51) 40px 20px 25px), 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
 }
 
 @keyframes moveBlue {
     0% {
-        position: right 0px;
         filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        right: 0px;
+        -moz-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -moz-right: 0px;
+        -ms-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -ms-right: 0px;
+        -o-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -o-right: 0px;
+        -webkit-filter: drop-shadow(rgb(51, 51, 51) 40px 20px 25px);
+        -webkit-right: 0px;
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: filter, right position for the moveBlue animation (when the listed animation is at 0% of its duration) to the following respective values: drop-shadow(rgb(51, 51, 51) 40px 20px 25px), 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     49% {
         transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: transform for the moveBlue animation to the following respective values: scaleX(1); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     50% {
         filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        right: 380px;
         transform: scaleX(0.4);
+        -moz-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -moz-right: 380px;
+        -moz-transform: scaleX(0.4);
+        -ms-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -ms-right: 380px;
+        -ms-transform: scaleX(0.4);
+        -o-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -o-right: 380px;
+        -o-transform: scaleX(0.4);
+        -webkit-filter: drop-shadow(rgb(51, 51, 51) 0px 0px 0px);
+        -webkit-right: 380px;
+        -webkit-transform: scaleX(0.4);
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: filter, right position, transform for the moveBlue animation (when the listed animation is at 50% of its duration) to the following respective values: drop-shadow(rgb(51, 51, 51) 0px 0px 0px), 380px, scaleX(0.4); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     51% {
         transform: scaleX(1.0);
+        -moz-transform: scaleX(1.0);
+        -ms-transform: scaleX(1.0);
+        -o-transform: scaleX(1.0);
+        -webkit-transform: scaleX(1.0);
     }
 
+    /* 
+==================================================
+The above piece of code changes the following: transform for the moveBlue animation to the following respective values: scaleX(1.0); as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
     100% {
-        position: right -700px;
         filter: drop-shadow(rgb(51, 51, 51) 120px 20px 25px);
+        right: -700px;
+        -moz-filter: drop-shadow(rgb(51, 51, 51) 120px 20px 25px);
+        -moz-right: -700px;
+        -ms-filter: drop-shadow(rgb(51, 51, 51) 120px 20px 25px);
+        -ms-right: -700px;
+        -o-filter: drop-shadow(rgb(51, 51, 51) 120px 20px 25px);
+        -o-right: -700px;
+        -webkit-filter: drop-shadow(rgb(51, 51, 51) 120px 20px 25px);
+        -webkit-right: -700px;
     }
+
+    /* 
+==================================================
+The above piece of code changes the following: filter, right position for the moveBlue animation (when the listed animation is at 100% of its duration) to the following respective values: drop-shadow(rgb(51, 51, 51) 120px 20px 25px), -700px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
 }
+
+@keyframes showText {
+    0% {
+        opacity: 0;
+        -moz-opacity: 0;
+        -ms-opacity: 0;
+        -o-opacity: 0;
+        -webkit-opacity: 0;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the showText animation (when it is at 0%) to the following respective values: 0; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+    49% {
+        opacity: 0;
+        -moz-opacity: 0;
+        -ms-opacity: 0;
+        -o-opacity: 0;
+        -webkit-opacity: 0;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the showText animation (when it is at 49%) to the following respective values: 0; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+    51% {
+        opacity: 1;
+        -moz-opacity: 1;
+        -ms-opacity: 1;
+        -o-opacity: 1;
+        -webkit-opacity: 1;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the showText animation (when it is at 51%) to the following respective values: 1; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+    100% {
+        opacity: 1;
+        -moz-opacity: 1;
+        -ms-opacity: 1;
+        -o-opacity: 1;
+        -webkit-opacity: 1;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the showText animation (when it is at 100%) to the following respective values: 1; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+}
+
+@keyframes hideText {
+    0% {
+        opacity: 1;
+        -moz-opacity: 1;
+        -ms-opacity: 1;
+        -o-opacity: 1;
+        -webkit-opacity: 1;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the hideText animation (when it is at 0%) to the following respective values: 1; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+    49% {
+        opacity: 1;
+        -moz-opacity: 1;
+        -ms-opacity: 1;
+        -o-opacity: 1;
+        -webkit-opacity: 1;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the hideText animation (when it is at 49%) to the following respective values: 1; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+    51% {
+        opacity: 0;
+        -moz-opacity: 0;
+        -ms-opacity: 0;
+        -o-opacity: 0;
+        -webkit-opacity: 0;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the hideText animation (when it is at 51%) to the following respective values: 0; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+    100% {
+        opacity: 0;
+        -moz-opacity: 0;
+        -ms-opacity: 0;
+        -o-opacity: 0;
+        -webkit-opacity: 0;
+    }
+
+    /* 
+==================================================
+The above piece of code changes the following: opacity for the hideText animation (when it is at 100%) to the following respective values: 0; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+}
+
+img#redBall {
+    animation: moveRed 5s linear infinite;
+    -moz-animation: moveRed 5s linear infinite;
+    -ms-animation: moveRed 5s linear infinite;
+    -o-animation: moveRed 5s linear infinite;
+    -webkit-animation: moveRed 5s linear infinite;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: animation of all img (all img elements with the redBall id/class/animation) elements to the following respective values: moveRed, 5s, linear, infinite; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+img#blueBall {
+    animation: moveBlue 5s linear infinite;
+    -moz-animation: moveBlue 5s linear infinite;
+    -ms-animation: moveBlue 5s linear infinite;
+    -o-animation: moveBlue 5s linear infinite;
+    -webkit-animation: moveBlue 5s linear infinite;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: animation of all img (all img elements with the blueBall id/class/animation) elements to the following respective values: moveBlue, 5s, linear, infinite; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+div#redSpeed1 {
+    animation: hideText 5s linear infinite;
+    -moz-animation: hideText 5s linear infinite;
+    -ms-animation: hideText 5s linear infinite;
+    -o-animation: hideText 5s linear infinite;
+    -webkit-animation: hideText 5s linear infinite;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: animation of all div (all div elements with the redSpeed1 id/class/animation) elements to the following respective values: hideText, 5s, linear, infinite; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+div#blueSpeed1 {
+    animation: hideText 5s linear infinite;
+    -moz-animation: hideText 5s linear infinite;
+    -ms-animation: hideText 5s linear infinite;
+    -o-animation: hideText 5s linear infinite;
+    -webkit-animation: hideText 5s linear infinite;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: animation of all div (all div elements with the blueSpeed1 id/class/animation) elements to the following respective values: hideText, 5s, linear, infinite; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+div#redSpeed2 {
+    animation: showText 5s linear infinite;
+    -moz-animation: showText 5s linear infinite;
+    -ms-animation: showText 5s linear infinite;
+    -o-animation: showText 5s linear infinite;
+    -webkit-animation: showText 5s linear infinite;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: animation of all div (all div elements with the redSpeed2 id/class/animation) elements to the following respective values: showText, 5s, linear, infinite; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
+div#blueSpeed2 {
+    animation: showText 5s linear infinite;
+    -moz-animation: showText 5s linear infinite;
+    -ms-animation: showText 5s linear infinite;
+    -o-animation: showText 5s linear infinite;
+    -webkit-animation: showText 5s linear infinite;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: animation of all div (all div elements with the blueSpeed2 id/class/animation) elements to the following respective values: showText, 5s, linear, infinite; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome, Opera.
+==================================================
+*/
